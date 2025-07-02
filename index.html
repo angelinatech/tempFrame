@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UBM iFrame test</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      iframe {
+        width: 100%;
+        height: 60vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        border: none;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <iframe
+        src="https://biodiversity-map-development.web.app/"
+        sandbox="allow-scripts allow-same-origin"
+      ></iframe>
+    </div>
+  </body>
+</html>
